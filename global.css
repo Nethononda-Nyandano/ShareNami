@@ -1,0 +1,29 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+
+
+/* Dark mode 
+[data-theme="dark"] {
+  --font-primary: #ffffff;
+  --font-secondary: #d9e6ec;
+  --font-accent: #06d6a0;
+  --font-on-accent: #061b3a;
+  --background: #061b3a;
+}
+
+*/
+
+@theme {
+  --font-dm-regular: DMSans_400Regular;
+  --font-dm-bold: DMSans_700Bold;
+
+  --color-primary: #073b4c; /* Deep ocean navy */
+  --color-secondary: #073b4c;
+  --color-accent: #06d6a0; /* Vibrant turquoise */
+  --color-on-accent: #ffffff;
+  --background: #ffffff;
+}
