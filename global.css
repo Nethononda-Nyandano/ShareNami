@@ -4,26 +4,23 @@
 
 @import "nativewind/theme";
 
-
-
-/* Dark mode 
-[data-theme="dark"] {
-  --font-primary: #ffffff;
-  --font-secondary: #d9e6ec;
-  --font-accent: #06d6a0;
-  --font-on-accent: #061b3a;
-  --background: #061b3a;
-}
-
-*/
-
 @theme {
   --font-dm-regular: DMSans_400Regular;
   --font-dm-bold: DMSans_700Bold;
+  --font-dm-light: DMSans_300Light;
+  --font-dm-medium: DMSans_500Medium;
+  --font-dm-semibold: DMSans_600SemiBold;
+  --font-dm-extrabold: DMSans_800ExtraBold;
 
-  --color-primary: #073b4c; /* Deep ocean navy */
+  --color-primary: #073b4c;
   --color-secondary: #073b4c;
-  --color-accent: #06d6a0; /* Vibrant turquoise */
+  --color-accent: #06d6a0;
   --color-on-accent: #ffffff;
-  --background: #ffffff;
+  --color-background: #ffffff;
+
+  --color-primary-dark: #ffffff;
+  --color-secondary-dark: #d9e6ec;
+  --color-accent-dark: #06d6a0;
+  --color-on-accent-dark: #061b3a;
+  --color-background-dark: #061b3a;
 }
